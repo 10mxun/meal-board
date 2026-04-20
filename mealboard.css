@@ -140,3 +140,44 @@ li {
   list-style: none;
   margin-left: -40px;
 }
+
+@media (max-width: 768px) {
+  .main-card {
+    position: static;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .date {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .time {
+    width: 100%;
+    font-size: 56px;
+    text-align: center;
+  }
+
+  .meal-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .meal-board {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .meal-card {
+    width: 100%;
+  }
+
+  h2 {
+    width: 100%;
+  }
+}
